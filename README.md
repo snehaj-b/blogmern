@@ -21,7 +21,11 @@ blog-app/
     ├── .env              ← Set your backend URL here
     └── package.json
 ```
-
+git remote remove origin
+git remote add origin ------.git
+git remote -v
+git commit -m ""
+git push origin main
 ## Setup & Run (Local)
 
 ### 1. Configure .env files
@@ -132,3 +136,4 @@ sudo systemctl restart nginx
 Open ports 5000 (backend) and 80 (nginx frontend) in your EC2 security group inbound rules.
 
 Access at: http://<EC2_PUBLIC_IP>
+

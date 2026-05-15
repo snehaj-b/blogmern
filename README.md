@@ -34,7 +34,7 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/blogdb?
 
 **frontend/.env**
 ```
-REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=http://52.66.208.72:5000/api
 ```
 
 ### 2. Run Backend
@@ -53,8 +53,8 @@ npm install
 npm start
 ```
 
-App runs at: http://localhost:3000
-API runs at: http://localhost:5000
+App runs at: http://52.66.208.72:3000
+API runs at: http://52.66.208.72:5000
 
 ## Features
 - Create blog posts (title, author, category, content)
